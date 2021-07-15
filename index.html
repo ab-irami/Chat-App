@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <main>
+    <div class="first-bg"></div>
+    <div class="second-bg"></div>
+    <section id="main-container">
+
+      <!-- SECTION LEFT -->      
+      <section class="phone-model">
+        <section class="phone">          
+          <header class="phone-header">                      
+            <div class="prev--icon"><i class="fas fa-angle-left"></i></div>
+            <img class="avatar--img" src="images/avatar.jpg" alt="avatar-img">
+            <div class="profile__details">
+              <div class="top__rectangle"></div> 
+              <h3 class="profile--name">Samuel Green</h3>
+              <span class="profile__desc">Available to Walk</span>
+            </div>
+            <div class="menu__icon"></div>         
+          </header>
+          <section class="phone-body">
+            <p class="text--received">That sounds great. I’d be happy with that.</p>
+            <p class="text--received">Could you send over some pictures of your dog, please?</p>
+            <div class="dog__images">
+              <img class="dog--img" src="images/dog-image-1.jpg" alt="dog-image-1">
+              <img class="dog--img" src="images/dog-image-2.jpg" alt="dog-image-2">
+              <img class="dog--img" src="images/dog-image-3.jpg" alt="dog-image-3">
+            </div>
+            <p class="text--sent">Here are a few pictures. She’s a happy girl!</p>
+            <p class="text--sent">Can you make it?</p>
+            <p class="text--received">She looks so happy! The time we discussed works. How long shall I take her out for?</p>
+            <div class="text--received price--detail">
+              <input type="radio" name="radio-btn">
+              <label>30 minute walk</label>
+              <span>$29</span>
+            </div>
+            <div class="text--received price--detail">
+              <input type="radio" name="radio-btn">
+              <label>1 hour walk</label>              
+              <span>$49</span>
+            </div>
+            <div class="submit">
+              <input type="text" placeholder="Type a message...">
+              <button class="sub__btn"><i class="fas fa-angle-right"></i></button>
+            </div>          
+          </section>
+        </section>         
+      </section>
+
+      <!-- SECTION RIGHT -->
+
+      <section class="description-container">
+        
+        <h3 class="title">Simple booking</h3>
+        <p class="description">
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+          discuss arrangements and make bookings. Once the walk has been completed you can rate 
+          your walker and book again all through the chat.
+        </p>
+      </section>
+    </section>
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.github.com/ab-irami" target="_blank">Abirami</a>.
+    </footer>
+  </main>  
+  
+</body>
+</html>
