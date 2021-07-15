@@ -277,11 +277,6 @@ input[type="text"]:focus {
         align-items: center;
         margin: 0;
     }
-    
-        .submit { 
-        margin: 3% 1%; 
-        margin-right: 0;  
-    }
 
     .description-container {
         text-align: center;
